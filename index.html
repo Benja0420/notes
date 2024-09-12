@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <script type="module" src="app.js"></script>
+    <script type="module" src="./src/scripts/app.js"></script>
     <title>Notes Facheras</title>
 </head>
 <body>
@@ -15,6 +15,8 @@
         <form id="form" action="">
             <input type="text" id="title" placeholder="Title">
             <textarea name="" id="description" cols="30" rows="5" placeholder="Description"></textarea>
+            <input type="checkbox" id="done">
+            <label for="done">Done</label>
             <button id="btn">Add</button>
         </form>
         <section>
